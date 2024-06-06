@@ -7,7 +7,7 @@ function shrinkLogo() {
     const navbar = document.querySelector(".nav");
     const navLogo = document.querySelector(".nav-logo-div")
     const sticky = navbar.offsetTop;
-    const shrinkOn = 100; // Adjust this value as needed
+    const shrinkOn = 300; // Adjust this value as needed
 
     if (window.pageYOffset > shrinkOn) {
         header.classList.add("shrink");

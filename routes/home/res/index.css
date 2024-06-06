@@ -82,14 +82,6 @@ nav .right {
   font-size: 14px;
 }
 
-.shrink .main-logo-top {
-  padding: 5px 0;
-}
-
-.shrink #main-logo {
-  width: 100px;
-}
-
 @font-face {
   font-family: intervogue;
   src: url("./fonts/intervogue.otf");
