@@ -12,10 +12,8 @@ function shrinkLogo() {
     if (window.pageYOffset > shrinkOn) {
         header.classList.add("shrink");
         navbar.classList.add("stuck");
-        navLogo.style.display = "block";
     } else {
         header.classList.remove("shrink");
         navbar.classList.remove("stuck");
-        navLogo.style.display = "none";
     }
 }
