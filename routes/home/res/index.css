@@ -7,7 +7,7 @@
 }
 
 #main-logo {
-  height: 40vh;
+  width: min(70vw, 500px);
   padding: 40px 0 100px 0;
   filter: invert(1);
 }
