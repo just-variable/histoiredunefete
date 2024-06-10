@@ -19,9 +19,11 @@ app.use(logger);
 
 const err404 = require("./routes/error404/route");
 const home = require("./routes/home/route");
+const kharboushe = require("./routes/kharboushe/route");
 
 
 app.use("/", [express.static("./routes/home"), home])
+app.use("/kharboushe", [express.static("./routes/kharboushe"), kharboushe])
 
 app.use("*", err404);
 
