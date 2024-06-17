@@ -20,10 +20,14 @@ app.use(logger);
 const err404 = require("./routes/error404/route");
 const home = require("./routes/home/route");
 const kharboushe = require("./routes/kharboushe/route");
+const team = require("./routes/team/route");
+const aboutus = require("./routes/aboutus/route")
 
 
-app.use("/", [express.static("./routes/home"), home])
-app.use("/kharboushe", [express.static("./routes/kharboushe"), kharboushe])
+app.use("/", [express.static("./static"), home])
+app.use("/kharboushe", [express.static("./static"), kharboushe])
+app.use("/team", [express.static("./static"), team])
+app.use("/aboutus", [express.static("./static"), aboutus])
 
 app.use("*", err404);
 

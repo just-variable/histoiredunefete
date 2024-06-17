@@ -6,12 +6,12 @@
     <title>Histoire D'une Fete</title>
     <meta name="theme-color" content="#000"/>
     <script src="./res/index.js" defer></script>
-    <link rel="stylesheet" href="./res/index.css">
-    <link rel="icon" type="image/x-icon" href="./res/images/HDF-icon.png">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/x-icon" href="./images/HDF-icon.png">
 </head>
-<body>
+<body id="home">
     <div class="main-logo-top">
-        <img id="main-logo" src="./res/images/HDF-full.png">
+        <img id="main-logo" src="./images/HDF-full.png">
     </div>
     <nav class="nav">
         <div class="left">
@@ -19,10 +19,10 @@
                 <a>Home</a>
             </div>
             <div class="nav-item">
-                <a>Team</a>
+                <a href="/team">Team</a>
             </div>
             <div class="nav-item">
-                <a>Services</a>
+                <a href="/aboutus">About Us</a>
             </div>
         </div>
         <div class="right">
@@ -37,5 +37,21 @@
         <p>Take a look at our creative community.</p>
         <a class="button" href="/kharboushe">Visit Kharboushe</a>
     </div>
+
+    <footer>
+        <div class="column">
+            <a href="/aboutus">About Us</a>
+            <a href="/team">Team</a>
+            <a href="/kharboushe">Kharboushe</a>
+        </div>
+
+        <div class="column contact">
+            <img src="./images/HDFlogo.png">
+            <div class="contact-icons">
+                <a href="https://api.whatsapp.com/send?phone=96176669172"><img src="./icons/whatsapp.svg"></a>
+                <a href="https://instagram.com/histoiredunefete"><img src="./icons/instagram.svg"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
